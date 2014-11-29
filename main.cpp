@@ -3,7 +3,7 @@
 #include <math.h>
 using namespace std;
 
-//Trabajo en grupo realizado con Maynor Morales
+//Trabajo en grupo realizado con Maynor Morales, Iveth Sabillon, Merary Fernandez
 //Tomadas algunas anotaciones de http://informatica.uv.es/iiguia/AED/oldwww/2004_05/AED.Tema.07.pdf
 
 //Las siguientes funciones escribir y leer ingresan y leen respectivamente un numero ubicado al inicio de un archivo de texto
