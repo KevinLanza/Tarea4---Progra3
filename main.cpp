@@ -80,7 +80,8 @@ bool existe(string nombre_archivo, string str)
 {
     ifstream in(nombre_archivo.c_str());//Se hace un ifstream para leer el archivo
     string palabra;//Se hace una variable string para compararla con la palabra a buscar
-    int cant;//Se hace una variable int para establecer el limite del ciclo
+    int cant;//Se hace una variable int para establecer el limite del ciclo, se puede establecer un valor a cantidad 
+            //para que el ciclo no sea infinito por que sino se tarda en resolver el ejercicio al momento de evaluarlo
     for(int i=0;i < cant;i++)//Se hace un ciclo for para establecer un contador e ir comparando las palabras
     {
         in>>palabra;//Se introduce la palabra a comparar
@@ -98,7 +99,7 @@ int obtenerMayor(string nombre)
     //Ejercicio realizado en clase
     ifstream in(nombre.c_str());//Se hace un ifstream para leer el archivo
     in.seekg(0,ios::end);//Con seekg se hace para modificar el archivo
-    int tamano = in.tellg();//se hace una variable int para definir el tamaño de cada entrada del archivo
+    int tamano = in.tellg();//se hace una variable int para definir el tamaÃ±o de cada entrada del archivo
     in.seekg(0,ios::beg);//Se vuelve al poner al inicio el seekg
 
     int mayor = -999;//Se hace una variable int para comparar numeros
